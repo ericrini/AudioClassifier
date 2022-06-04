@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FFMpegCore" Version="4.8.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+      <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+      <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.7.1" />
+      <PackageReference Include="Microsoft.ML.TensorFlow.Redist" Version="0.14.0" />
+      <PackageReference Include="Microsoft.ML.Vision" Version="1.7.1" />
+      <PackageReference Include="NAudio.Core" Version="2.1.0" />
+      <PackageReference Include="Spectrogram" Version="1.4.4" />
+    </ItemGroup>
+
+</Project>
